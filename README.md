@@ -9,11 +9,11 @@ This project is containerized with Docker and deployed on Hugging Face Spaces.
 
 ## Features
 
-- 🔮 Predicts car resale price using a trained Random Forest model
-- ⚡ Built with FastAPI
-- 🐳 Dockerized
-- 🌐 Deployed on Hugging Face Spaces
-- 🧪 Interactive Swagger docs for testing
+-  Predicts car resale price using a trained Random Forest model
+-  Built with FastAPI
+-  Dockerized
+-  Deployed on Hugging Face Spaces
+-  Interactive Swagger docs for testing
 
 ---
 
@@ -35,14 +35,14 @@ This project is containerized with Docker and deployed on Hugging Face Spaces.
 
 ---
 
-## 🚀 Try It Live
+## Try It Live
 
 👉 [**Open API Docs**](https://prathikbs-car-price-api.hf.space/docs)  
 Use the `/predict` endpoint to submit input and get the predicted selling price.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.10
 - FastAPI
@@ -53,7 +53,7 @@ Use the `/predict` endpoint to submit input and get the predicted selling price.
 
 ---
 
-## 🐳 Run Locally
+## Run Locally
 
 ```bash
 git clone https://github.com/prathikbsgowda/car-price-api.git
