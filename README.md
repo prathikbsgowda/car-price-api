@@ -59,17 +59,13 @@ Use the `/predict` endpoint to submit input and get the predicted selling price.
 git clone https://github.com/prathikbsgowda/car-price-api.git
 cd car-price-api
 
-# Optional: create virtual environment
 python -m venv venv
 venv\Scripts\activate   # On Windows
 
-# Install dependencies
 pip install -r requirements.txt
 
-# Train model
 python train_model.py
 
-# Run FastAPI app
 uvicorn app.main:app --reload
 ```
 
