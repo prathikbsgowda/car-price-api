@@ -95,7 +95,8 @@ Then open [http://localhost:8000/docs](http://localhost:8000/docs) to test.
 
 ## ✨ Deployed On
 
-[![Hugging Face Spaces](https://img.shields.io/badge/hosted%20on-HuggingFace-orange?logo=huggingface)]([https://huggingface.co/spaces/prathikbs/car-price-api](https://prathikbs-car-price-api.hf.space/docs))
+[![Hugging Face Spaces](https://img.shields.io/badge/hosted%20on-HuggingFace-orange?logo=huggingface)](https://prathikbs-car-price-api.hf.space/docs)
+
 
 ---
 
