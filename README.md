@@ -1,5 +1,5 @@
 
-# 🚗 Car Price Prediction API
+# Car Price Prediction API
 
 A FastAPI-based machine learning API that predicts used car prices based on input features such as year, mileage, fuel type, transmission type, and owner count.
 
@@ -7,7 +7,7 @@ This project is containerized with Docker and deployed on Hugging Face Spaces.
 
 ---
 
-## 📦 Features
+## Features
 
 - 🔮 Predicts car resale price using a trained Random Forest model
 - ⚡ Built with FastAPI
@@ -17,7 +17,7 @@ This project is containerized with Docker and deployed on Hugging Face Spaces.
 
 ---
 
-## 🧠 Model Input Format
+## Model Input Format
 
 ```json
 {
@@ -53,22 +53,6 @@ Use the `/predict` endpoint to submit input and get the predicted selling price.
 
 ---
 
-## 📂 Project Structure
-
-```
-car-price-api/
-├── app/
-│   ├── main.py         # FastAPI app & route
-│   ├── model.py        # Pydantic input schema
-│   └── car_model.pkl   # Trained ML model
-├── train_model.py      # Trains and dumps model
-├── requirements.txt    # Python dependencies
-├── Dockerfile          # Hugging Face-compatible image
-└── README.md
-```
-
----
-
 ## 🐳 Run Locally
 
 ```bash
@@ -99,9 +83,3 @@ Then open [http://localhost:8000/docs](http://localhost:8000/docs) to test.
 
 
 ---
-
-## 📬 Contact
-
-Created by **Prathik B S Gowda**  
-📧 prathikbsgowda@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/prathik-b-s-a80b3521a)
